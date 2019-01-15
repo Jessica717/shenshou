@@ -1,0 +1,20 @@
+// global
+export const SET_NUM = 'SET_NUM'
+export const SET_CARNUM = 'SET_CARNUM'// 购物车数量
+export const SET_CARPRO = 'SET_CARPRO'// 购物车商品
+export const SET_CARAMOUNT = 'SET_CARAMOUNT'// 购物车总价
+export const SET_CARSCORE = 'SET_CARSCORE'// 购物车总积分
+export const SET_CARSHIP = 'SET_CARSHIP'// 购物车包邮价格
+export const SET_CARDIFFERENCE = 'SET_CARDIFFERENCE'// 购物车包邮差价
+export const SET_ISBIND = 'SET_ISBIND'// 是否绑定手机
+export const SET_SCORE = 'SET_SCORE'// 总积分
+export const SET_NEWS = 'SET_NEWS'// 是否有未读消息
+export const SET_NEWSNUM = 'SET_NEWSNUM'// 未读消息数量
+export const SET_ISSIGN = 'SET_ISSIGN'// 是否签到
+export const SET_USERINFO = 'SET_USERINFO'// 用户信息
+export const SET_SEARCHDATA = 'SET_SEARCHDATA'// 搜索历史记录
+export const SET_CHOSEADDR = 'SET_CHOSEADDR'// 确认订单选择地址
+export const SET_FOOTNUM = 'SET_FOOTNUM'// 足迹数量
+export const SET_FOOTLIST = 'SET_FOOTLIST'// 足迹列表
+export const SET_SIGNDATA = 'SET_SIGNDATA'// 签到数据
+export const SET_SCANID = 'SET_SCANID'// 扫码中奖的id
