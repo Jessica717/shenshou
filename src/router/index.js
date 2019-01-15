@@ -1,5 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import store from '../store/'
+console.log(store)
+
 Vue.use(Router)
 // 需要左方向动画的路由用this.$router.togo('****')
 Router.prototype.togo = function (info) {
