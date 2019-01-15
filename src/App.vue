@@ -19,8 +19,8 @@ export default {
   created() {
     setTimeout(function() {
       console.log('隐藏console')
-      // document.querySelector('#__vconsole').style.display = 'none'
-      // document.querySelector('#__vconsole .vc-switch').style.display = 'none'
+      document.querySelector('#__vconsole').style.display = 'none'
+      document.querySelector('#__vconsole .vc-switch').style.display = 'none'
     }, 100)
   },
   methods: {
